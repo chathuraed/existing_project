@@ -1,0 +1,33 @@
+# .copilotignore
+# Files and directories that GitHub Copilot should not use as context
+
+# Don't access agent-specific internal instructions
+# These are for other AI systems (Claude, Gemini) not Copilot
+.github/agents/
+
+# Build outputs
+node_modules/
+dist/
+build/
+.astro/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files (except our configs)
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+tmp/
+temp/
+*.tmp

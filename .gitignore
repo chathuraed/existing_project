@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.astro/
+.wix/
+
+# Development
+.vscode/*
+!.vscode/mcp.json
+!.vscode/settings.json
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Debug
+.vscode/launch.json
+.chrome/
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Package manager lock files (keep only one)
+package-lock.json
+yarn.lock
+# bun.lockb should be committed
+
+# Local development
+.local/
+.cache/
+
+# Vercel
+.vercel
+
+# Wix
+.wix-local/
