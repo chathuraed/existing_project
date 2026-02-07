@@ -1,0 +1,22 @@
+# CODEOWNERS
+# This file defines code ownership for the repository.
+# GitHub Copilot and other tools use this for context.
+
+# Default owners for everything in the repo
+* @chathuraed
+
+# Skills system
+/.agents/ @chathuraed
+
+# GitHub and Copilot configuration
+/.github/ @chathuraed
+
+# Core configuration files
+/package.json @chathuraed
+/tsconfig.json @chathuraed
+/astro.config.mjs @chathuraed
+
+# Documentation
+/AGENTS.md @chathuraed
+/CLAUDE.md @chathuraed
+/README.md @chathuraed
